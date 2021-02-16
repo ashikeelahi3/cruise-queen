@@ -27,7 +27,7 @@
 	</header>
 
 	<!--Booking Section-->
-	<main class="main-content container">
+	<main id="main" class="main-content container">
 
 		<div class="booking-content">
 			<h1>Cruise Queen</h1>
@@ -106,9 +106,17 @@
 					</div>
 				</div>
 			</div>
-			<button class="btn-style">Book Now</button>
+			<button id="confirm_btn" class="btn-style">Book Now</button>
 		</div>
 	</main>
+
+	<section id="confirmation_info">
+		<h4>Your order has confirmed. Thanks for your order.</h4>
+		<br>
+		<h3>Order summary:</h3>
+		<div id="order_table">
+		</div>
+	</section>
 
 	<!--Thank You-->
 	<script src="./main.js"></script>

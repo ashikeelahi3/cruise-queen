@@ -127,3 +127,38 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+
+#confirm_btn {
+    cursor: pointer;
+    outline: none;
+}
+#confirmation_info {
+    display: none;
+    max-width: 500px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+}
+#confirmation_info > h4 {
+    color: green;
+}
+
+#order_table {
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
